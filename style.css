@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background-color: #f2f2f2;
+    display: inline-flexbox;
+    font-family: "Merriweather", serif;
+    
+    justify-content: center;
+    height: 50vh;
+    margin: 150px;
+}
+input[type=number]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    color: white;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 10px 200px 10px 200px;
+    color: white;
+    background: darkgoldenrod;
+}
+#input1{
+  font-family: inherit;
+  text-align: right;
+  padding-right: 20px;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 15px 10px;
+  background: transparent;
+
+}
+#input2{
+   font-family: inherit;
+   padding-left: 20px;
+   width: 100%;
+   border: none;
+   border-bottom: 2px solid grey;
+   outline: 0;
+   font-size: 1.3rem;
+   color: black;
+   padding: 15px 10px;
+}
+
+.dispaly{
+    margin: auto;
+    width: 50%;
+    border: 3px solid lightcyan;
+    padding: 10px;
+}
+#answer{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    padding: 50px;
+    border: 2px blue;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+    background: lightblue;
+}
+
+.btns{
+    margin: auto;
+    width: 50%;
+    border: 3px solid lightcyan;
+    padding: 10px;
+}
+#plus{
+    width: 15%;
+    height: 5vh;
+    margin: 15px;
+    font-size: 1.5rem;
+    background: lightsalmon;
+}
+#plus:hover{
+    transform: scale(1.5);
+}
+#minus{
+    width: 15%;
+    height: 5vh;
+    margin: 15px;
+    font-size: 1.5rem;
+    background: lightsalmon;
+}
+#minus:hover{
+    transform: scale(1.5);
+}
+#multiply{
+    width: 15%;
+    height: 5vh;
+    margin: 15px;
+    font-size: 1.5rem;
+    background: lightsalmon;
+}
+#multiply:hover{
+    transform: scale(1.5);
+}
+#division{
+    width: 15%;
+    height: 5vh;
+    margin: 15px;
+    font-size: 1.5rem;
+    background: lightsalmon;
+}
+#division:hover{
+    transform: scale(1.5);
+}
+#All-clear{
+    width: 15%;
+    height: 5vh;
+    margin: 15px;
+    font-size: 1.5rem;
+    background: lightsalmon;
+}
+#All-clear:hover{
+    transform: scale(1.5);
+}
